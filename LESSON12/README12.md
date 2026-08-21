@@ -7,5 +7,8 @@
 بنستخدم ال سكوير براكتس علشان ناكسس العناصر 
 الانديكسينج والسلايسينج عباره عن نظام بيسمح لينا ندخل علي جزء من العناصر كامله او عنصر واحد بس منها 
 ## indexing ( access single item ) 
-print (string[0]) => index 0 &+++...
-print ()
+الوصول لقيمه واحده بس من مجموعة القيم 
+## slicing ( access multiple sequential items )
+ناكسس مجموعة قيم من بدايه لنهايه نحددها
+[start:end]
+[start:end:steps]
