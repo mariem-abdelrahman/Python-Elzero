@@ -44,7 +44,9 @@
 # }
 
 
+r = float(input())
+pi = 3.141592653
 
+area = r * r * pi
 
-
-
+print("%.9f" %area)
