@@ -13,3 +13,19 @@
 # 2. طباعة رسالة تشفير جزئي للإيميل مثل: d***a@gmail.com.
 
 
+email = input("Please Enter Your E-mail ^.^")
+if "@" in email :
+    if "." in email :                
+        print(email[0:email.index("@")])
+        print(email[email.index("@")+1:email.rindex(".")])
+        print(email[email.rindex(".")+1:])
+        print(email[0] + "*" * len((email[1:email.index("@")-1])) + email[email.index("@")-1])
+else :
+     print("Invalid E-Mail -_- Please Enter A Valid Mail ... ")
+
+
+
+
+
+
+# طباعة رسالة التشفير 
